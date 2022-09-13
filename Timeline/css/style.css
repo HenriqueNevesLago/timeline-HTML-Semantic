@@ -2,37 +2,25 @@
 * {
   box-sizing: border-box;
 }
-body {
+.timeline-container {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 16px;
-}
 
-.header nav {
-  display: flex;
-  justify-content: center;
-
-  color: #cd4646;
-  font-weight: 600;
-  font-size: 28px;
-  margin: 20px;
-}
-
-.container {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 
-.text-left {
+.timeline-container .text-left {
   width: 30%;
 }
 
-.text-left h2 {
+.timeline-container .text-left h2 {
   width: 50%;
 }
 
-.timeline {
+.timeline-container .timeline {
   width: 45%;
 }
 
@@ -97,19 +85,19 @@ body {
 }
 
 @media (max-width: 960px) {
-  .container {
+  .timeline-container {
     display: flex;
     flex-direction: column;
   }
-  .text-left {
+  .timeline-container .text-left {
     width: 100%;
   }
 
-  .text-left h2 {
+  .timeline-container .text-left h2 {
     width: 100%;
   }
 
-  .timeline {
+  .timeline-container .timeline {
     width: 100%;
   }
 }
